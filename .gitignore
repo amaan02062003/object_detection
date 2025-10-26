@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+# Keep config.toml but ignore other Streamlit files
+.streamlit/secrets.toml
+.streamlit/debug.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model cache
+*.cache
+
+# User uploads (if saved)
+uploads/
+
+# Large data files that shouldn't be in repo
+# train_1/
+# test2/
+
+# Keep model weights but not if they're too large
+# runs/detect/train/weights/
+# Keep only the trained model you're using
+# Uncomment line below if train2 weights are too large
+# !runs/detect/train2/weights/best.pt
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# Temporary files
+*.tmp
+temp/
+
