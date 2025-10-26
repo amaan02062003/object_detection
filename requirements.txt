@@ -1,12 +1,9 @@
 streamlit==1.40.2
 ultralytics==8.3.221
-opencv-python-headless==4.10.0.86
+opencv-python-headless==4.11.0.86
 pillow==11.3.0
 numpy==2.0.2
 torch==2.7.1
 torchvision==0.22.1
 pyyaml==6.0.3
-
-# Note: Python 3.13 removed imghdr module
-# If deployment fails, please use "Always rerun" in Streamlit Cloud settings
 
